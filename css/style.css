@@ -31,7 +31,7 @@
 
 .up-items{
     background-color: #daa520;
-    border: black dashed 2px;
+    border: black dashed 1px;
     flex-grow: 2
 }
 
@@ -45,28 +45,67 @@
 
 .slide{
     background-color: #ee82ee;
-    border: black dashed 2px;
-    height: 70%;
+    border: black dashed 1px;
+    height: 300px;
     color: white;
     width: 70%;
 }
 
 .main-item{
     background-color: #1d90ff;
-    border: black dashed 2px;
+    border: black dashed 1px;
     height: 300px;
     width: 70%;
 }
 
 .main-text{
     background-color: #ffbfcb;
-    border: black dashed 2px;
+    border: black dashed 1px;
     width: 30%; 
 }
 
 .main-big-item{
     background-color: #228b22;
-    border: black dashed 2px;
-    width: 600px;
+    border: black dashed 1px;
+    width: 100%;
     height: 500px;
+}
+
+.other{
+    background-color: #23272a;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-p{
+    background-color: #f07f80;
+    height: 300px;
+    width: 30%;
+    border: black dashed 1px;
+}
+
+.footer-s{
+    background-color: #20b2aa;
+    height: 300px;
+    width: 15%;
+    border: white dashed 1px;
+}
+
+.credits{
+    height: 50px;
+    width: 100%;
+    background-color: #23272a;
+    border-top: white solid 1px;
+}
+
+.green{
+    background-color: #7fffd4;
+}
+
+div>span{
+    background-color: #ffb6c1;
+    border: black dashed 1px;
 }
