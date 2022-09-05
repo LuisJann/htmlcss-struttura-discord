@@ -3,3 +3,42 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.up-bar{
+    background-color: #add8e6;
+    height: 50px;
+}
+
+.up-items{
+    background-color: #daa520;
+    border: black dashed 2px;
+    flex-grow: 2
+}
+
+.up.items div:second-of-type{
+    text-align: center;
+}
+
+.banner{
+    background-color: #02028b;
+    height: 400px;
+}
+
+
+
+.slide{
+    background-color: #ee82ee;
+    height: 70%;
+    color: white;
+    width: 70%;
+}
