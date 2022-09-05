@@ -1,9 +1,10 @@
+/* RESET */
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-
+/* COMMON */
 .container{
     display: flex;
     justify-content: space-around;
@@ -13,13 +14,7 @@
     width: 100%;
 
 }
-
-.main-layout{
-    width: 100%;
-    padding: 5% 20% 5% 20%;
-    display: flex;
-}
-
+/* HEADER */
 .background{
     background-color: #d3d3d3;
 }
@@ -32,10 +27,18 @@
 .up-items{
     background-color: #daa520;
     border: black dashed 1px;
-    flex-grow: 2
+    flex-grow: 2;
+}   
+
+.dx{
+    text-align: end;
 }
 
+.center{
+    text-align: center;
+}
 
+ /* banner */
 .banner{
     background-color: #02028b;
     height: 400px;
@@ -51,6 +54,12 @@
     width: 70%;
 }
 
+/* MAIN */
+.main-layout{
+    width: 100%;
+    padding: 5% 20% 5% 20%;
+    display: flex;
+}
 .main-item{
     background-color: #1d90ff;
     border: black dashed 1px;
@@ -71,6 +80,7 @@
     height: 500px;
 }
 
+/* FOOTER */
 .other{
     background-color: #23272a;
     height: 400px;
@@ -78,6 +88,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .footer-p{
@@ -99,10 +111,19 @@
     width: 100%;
     background-color: #23272a;
     border-top: white solid 1px;
+    padding-left: 18%;
+    padding-right: 18%;
+    display: flex;
+    align-items: flex-end;
 }
 
 .green{
     background-color: #7fffd4;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 80%;
 }
 
 div>span{
