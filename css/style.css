@@ -6,12 +6,22 @@
 
 .container{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
+    width: 100%;
 
+}
+
+.main-layout{
+    width: 100%;
+    padding: 5% 20% 5% 20%;
+    display: flex;
+}
+
+.background{
+    background-color: #d3d3d3;
 }
 
 .up-bar{
@@ -25,9 +35,6 @@
     flex-grow: 2
 }
 
-.up.items div:second-of-type{
-    text-align: center;
-}
 
 .banner{
     background-color: #02028b;
@@ -38,7 +45,28 @@
 
 .slide{
     background-color: #ee82ee;
+    border: black dashed 2px;
     height: 70%;
     color: white;
     width: 70%;
+}
+
+.main-item{
+    background-color: #1d90ff;
+    border: black dashed 2px;
+    height: 300px;
+    width: 70%;
+}
+
+.main-text{
+    background-color: #ffbfcb;
+    border: black dashed 2px;
+    width: 30%; 
+}
+
+.main-big-item{
+    background-color: #228b22;
+    border: black dashed 2px;
+    width: 600px;
+    height: 500px;
 }
